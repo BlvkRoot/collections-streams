@@ -1,4 +1,4 @@
-# COLLECTIONS AND STREAMS IN JAVA
+# COLLECTIONS AND STREAMS IN JAVA ☕
 
 ```
 In this project we study and understand
