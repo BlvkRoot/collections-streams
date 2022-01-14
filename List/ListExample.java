@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListExample {
@@ -26,9 +27,21 @@ public class ListExample {
 
         System.out.println(nome);
 
-        System.out.println(names.contains("Jacob"));
-        System.out.println(names.isEmpty());
-        System.out.println(names.indexOf("Kiles"));
+        // System.out.println(names.contains("Jacob"));
+        // System.out.println(names.isEmpty());
+        // System.out.println(names.indexOf("Kiles"));
+
+        // Printing out names using for loop
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        Iterator<String> name = names.iterator();
+
+        // Printing out names using Iterators
+        while(name.hasNext()) {
+            System.out.println(name.next());
+        }
 
 
 
